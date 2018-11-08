@@ -3,13 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* clearfixを追加 */
+
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
 
+header {
+  width: 90%;
+  padding: 15px 0;
+  margin: 0 auto;
+}
 .main-visual {
   width: 100%; /* 横幅 */
   height: 300px; /* 高さ */
@@ -35,8 +40,7 @@
   float: left; /* 要素を左揃えで並べる */
 }
 
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
+footer {
+  width: 100%; /* 横幅 */
+  height: 120px; /* 高さ */
 }
