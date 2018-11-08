@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* clearfixを追加 */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.main-visual {
+  width: 100%; /* 横幅 */
+  height: 300px; /* 高さ */
+}
+.main-visual-content{
+  width: 350px; /* 横幅を指定 */
+  height: 300px; /* 親の高さに揃える */
+}
+
+.main {
+  width: 840px; /* 横幅 */
+  /* 中央寄せ（余白がないとできない） */
+  margin: 0 auto;
+}
+.blog {
+  width: 600px;
+  height: 1400px;
+  float: left; /* 要素を左揃えで並べる */
+}
+.sidebar {
+  width: 240px;
+  height: 1400px;
+  float: left; /* 要素を左揃えで並べる */
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
